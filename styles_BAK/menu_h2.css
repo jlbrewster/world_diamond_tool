@@ -1,0 +1,313 @@
+body {
+	font-family: arial, helvetica, serif;
+	background: #999999 url(images/ddbg3.gif) no-repeat;
+	padding: 2em;
+	margin: 0;
+}
+
+.h1, h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.96em;
+	color: #000000;
+}
+
+ h1 b {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.96em;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+
+ h1 b .blue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.96em;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	color: #0000FF;
+}
+
+	h1 b .red,  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.96em;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	color: #FF0000;
+}
+
+ h2 b {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	background-color: #FFFFFF;
+	display: inline;
+	color: #000000;
+	font-weight: bolder;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	background-color: #FFFFFF;
+	display: block;
+	color: #000000;
+}
+
+ h2 b {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-position: center;
+	color: #000000;
+}
+
+h2 b .red {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	color: #FF0000;
+}
+
+h1 bold_blue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.96em;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	color: #0033FF;
+}
+
+h3 {
+	font-size:.82em;
+	display: inline;
+}
+
+h4 {
+
+	font-size:.7px;
+	display: inline;
+}
+
+h5 {
+	font-size:.62em;
+	display: inline;
+}
+
+#menu_box {
+	width: 521px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-left: 0px;
+	text-indent: 0px;
+	font-size: .9em;
+}
+
+#menu {
+	width: 100%;
+	background: #eee;
+	float: left;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 9em;
+	float: left;
+}
+
+#menu a, #menu h2 {
+	font: bold 11px/16px arial, helvetica, sans-serif;
+	display: block;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc #888 #555 #bbb;
+	margin: 0;
+	padding: 2px 3px;
+	background-color: #0000CC;
+}
+
+#menu h2 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#menu a {
+	color: #0033CC;
+	background: #efefef;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: #a00;
+	background: #fff;
+}
+
+#menu li {
+	position: relative;
+}
+
+#menu ul ul {
+	position: absolute;
+	z-index: 500;
+	*margin-left: 0;
+}
+
+#menu ul ul ul {
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+
+div#menu ul ul,
+div#menu ul li:hover ul ul,
+div#menu ul ul li:hover ul ul
+{
+	display: none;
+}
+
+div#menu ul li:hover ul,
+div#menu ul ul li:hover ul,
+div#menu ul ul ul li:hover ul
+{
+	display: block;
+}
+
+.content {
+	width: 760px;
+	height: 600px;
+	padding: 1em 0;
+	background-color: #CCCCCC;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#tpg_box {
+	width: 660px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#tpg_box2 {
+	width: 440px;
+	float: left;
+}
+
+#tpg_box3 {
+	float: left;
+}
+
+.center_box {
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 12;
+	height: 580px;
+}
+#header, header {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	font-style: normal;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	height: 40px;
+}
+#header2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-position: center top;
+}
+footer {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.25em;
+	font-weight:400;
+	text-align:center;
+	width:100%;
+	display:inline-block;	
+	padding: 4% 2%;
+}
+footer span.company{
+	font-weight:1.5em;
+}
+tr {
+	padding:0 4em;
+}
+.price_box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	font-weight: normal;
+	color: #000000;
+	background-color: #FFFFFF;
+	width: 110px;
+}
+#logo_box {
+	height: 313px;
+	width: 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.westecdiamondtool.com/images/westec_logo_large.png', sizingMethod='absolute');
+	background-image: url(http://www.westecdiamondtool.com/images/westec_logo_large.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	z-index: 999;
+}
+.center_box2 {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+}
+#specials_pg {
+	background-color: #FFFFFF;
+	background-position: center top;
+	text-align: center;
+}
+.h3_bold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-position: center;
+	color: #000000;
+}S
+#copy_box1 {
+	margin-left: 30px;
+	margin-top: 20px;	
+	float: left;
+	width: 400px;
+}
+
+#specials_box {
+	height: 108px;
+	width: 200px;
+	margin-left: 35px;
+	float: left;
+	margin-top: 35px;
+}
+
+#spacer {
+	line-height: .8em;
+	margin-top: 12 px;
+}
+
+.footer2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	width: 760px;
+	margin: 25px auto 0px auto;
+	text-align: center;
+	text-indent: 0px;
+}
+
+#copy_box2 {
+	margin-left: 0px;	
+	margin-top: 20px;	
+	float: none;
+	width: 100%;
+	margin-right: 0px;
+}

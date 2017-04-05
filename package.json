@@ -1,0 +1,22 @@
+{
+  "name": "world-diamond-tool",
+  "version": "1.0.0",
+  "description": "world diamond tool main web project",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  },
+  "scripts": {
+    "test": "console.log('npm init success')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlbrewster/world_diamond_tool.git"
+  },
+  "author": "jeff brewster",
+  "license": "ISC"
+}
