@@ -12,8 +12,11 @@ body {
 }
  h1 {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.96em;
+	font-size: 1.75em;
 	color: #000000;
+	font-weight:500;
+	clear:both;
+	margin:2em 0 .5em 0;
 }
 .blue {	
 	color: #0000FF;
@@ -23,8 +26,7 @@ body {
 } 
 h2 {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.2em;
-	background-color: #FFFFFF;
+	font-size: 1.2em;	
 	display: block;
 	color: #000000;
 }
@@ -202,7 +204,7 @@ input.submit{
 
 /* ------ menu styles------ */
 .menu_box, #menu_box {
-	width: 521px;
+	width: 454px;
 	margin-top: 0px;
 	margin-right: auto;
 	margin-bottom: 0px;
@@ -214,7 +216,6 @@ input.submit{
 #menu {
 	width: 100%;
 	background: #eee;
-	float: left;
 }
 #menu ul {
 	list-style: none;
