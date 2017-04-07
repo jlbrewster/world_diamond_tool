@@ -7,7 +7,11 @@
   <title>Diamond Cutting Tools, Natural Diamond Tools, Diamond-PCB and CBN Tools</title>
   <meta name="description" content="Manufacturer diamond cutting tools, carbide tools, boron tools, PCD, CBN tools, 
   inserts including countless industrial natural diamond products by World Diamond Tools">
+<<<<<<< HEAD
+  <meta name="keywords" content="diamond tools, industrial diamond tools, carbide tools, boron tools, diamond cutting tools, PCD CBN"/>
+=======
   <meta name="keywords" content="diamond tools, industrial diamond tools, carbide tools, boron tools, diamond cutting tools, llllllllPCD CBN"/>
+>>>>>>> origin/twig
     <!--[if IE]>
     <style type="text/css" media="screen">
      #menu ul li {float: left; width: 100%;}
