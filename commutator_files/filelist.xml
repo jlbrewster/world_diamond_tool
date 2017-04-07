@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 <xml xmlns:o="urn:schemas-microsoft-com:office:office">
  <o:MainFile HRef="../commutator.htm"/>
  <o:File HRef="image001.jpg"/>
  <o:File HRef="image002.jpg"/>
  <o:File HRef="image003.gif"/>
  <o:File HRef="filelist.xml"/>
+=======
+<xml xmlns:o="urn:schemas-microsoft-com:office:office">
+ <o:MainFile HRef="../commutator.htm"/>
+ <o:File HRef="image001.jpg"/>
+ <o:File HRef="image002.jpg"/>
+ <o:File HRef="image003.gif"/>
+ <o:File HRef="filelist.xml"/>
+>>>>>>> origin/twig
 </xml>

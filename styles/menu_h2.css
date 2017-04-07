@@ -12,8 +12,16 @@ body {
 }
  h1 {
 	font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
 	font-size: 0.96em;
 	color: #000000;
+=======
+	font-size: 1.75em;
+	color: #000000;
+	font-weight:500;
+	clear:both;
+	margin:2em 0 .5em 0;
+>>>>>>> origin/twig
 }
 .blue {	
 	color: #0000FF;
@@ -23,8 +31,12 @@ body {
 } 
 h2 {
 	font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
 	font-size: 1.2em;
 	background-color: #FFFFFF;
+=======
+	font-size: 1.2em;	
+>>>>>>> origin/twig
 	display: block;
 	color: #000000;
 }
@@ -202,7 +214,11 @@ input.submit{
 
 /* ------ menu styles------ */
 .menu_box, #menu_box {
+<<<<<<< HEAD
 	width: 521px;
+=======
+	width: 454px;
+>>>>>>> origin/twig
 	margin-top: 0px;
 	margin-right: auto;
 	margin-bottom: 0px;
@@ -214,7 +230,10 @@ input.submit{
 #menu {
 	width: 100%;
 	background: #eee;
+<<<<<<< HEAD
 	float: left;
+=======
+>>>>>>> origin/twig
 }
 #menu ul {
 	list-style: none;
