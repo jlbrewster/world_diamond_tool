@@ -204,11 +204,6 @@ input.submit{
 
 /* ------ menu styles------ */
 .menu_box, #menu_box {
-<<<<<<< HEAD
-	width: 521px;
-=======
-	width: 454px;
->>>>>>> origin/twig
 	margin-top: 0px;
 	margin-right: auto;
 	margin-bottom: 0px;
@@ -218,9 +213,9 @@ input.submit{
 	font-size: .9em;
 }
 #menu {
-	width: 100%;
 	background: #eee;
-	width: 469px;
+	width:469px;
+	margin:0 auto;
 }
 #menu ul {
 	list-style: none;
