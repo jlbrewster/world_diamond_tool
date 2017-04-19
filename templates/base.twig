@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         {% block head %}
@@ -42,7 +41,6 @@
     		    <h1>Manufacturers of Diamond Tools for any industry</h1>
     		    <h2>Standard    |    Special    |    Custom</h2>
     		</div>
-            {{ dump(product) }}
          {% block body %}   
         	{% if product == false %}                
         	   {% include '_home_body.html' %}
