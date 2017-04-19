@@ -15,8 +15,30 @@ $thisPage = $_SERVER['REQUEST_URI'];  // example: '/index.html'
 
 $product = ($_SERVER['QUERY_STRING']); // URL's must be "index.html?=[product name]", for example "compounds"
 
+// When including a template, its name does not need to be a string. For instance, the name can depend on the value of a variable:
+// {% include var ~ '_foo.html' %}
 
-echo $twig->render('main_template.twig', array(
+
+// ^ which means we should not need any this (below) anymore?
+
+// $productContent = NULL;
+// //TODO: $productContent can be a variable conditional, something like: the part of the url after the first "=" is equal to this variable.
+
+// 	if ($thisPage == '/index.php?product=compounds'){
+// 		$productContent = "compounds"; 
+// 	}
+// 	elseif ($thisPage == '/product_template.php'){
+// 		$productContent = "copyright"; 
+// 	}
+// 	elseif  ($thisPage == '/drills.html'){
+// 		$productContent = "drills"; 
+// 	}
+// 	else {
+// 		$productConetent = NULL;
+// 	}
+
+
+echo $twig->render('product_template.twig', array(
 
     'pageTitle' => $pageTitle,
     'siteName' => $siteName,
