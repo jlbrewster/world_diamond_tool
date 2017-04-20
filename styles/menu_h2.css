@@ -140,6 +140,11 @@ footer span.company{
 	margin: 0 auto;
 	background-color: white;
 }
+.countersink_box{
+	background: white;
+    margin: 0 auto;
+    max-width: 700px;
+}
 #specials_pg {
 	background-color: #FFFFFF;
 	background-position: center top;
