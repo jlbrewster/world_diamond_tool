@@ -115,6 +115,10 @@ footer span.company{
     float: left;
     text-align: center;
 }
+.content_box{
+	max-width:700px;
+	margin:0 auto;
+}
 .price_box {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: .9em;
