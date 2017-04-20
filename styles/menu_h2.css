@@ -136,6 +136,10 @@ footer span.company{
 	margin-top: 15px;
 	z-index: 999;
 }
+.turning-tools table{
+	margin: 0 auto;
+	background-color: white;
+}
 #specials_pg {
 	background-color: #FFFFFF;
 	background-position: center top;
