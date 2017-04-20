@@ -41,12 +41,14 @@
                 {% block menu %}
         	        {% include '_menu.html' %}
                 {% endblock %} 
-                
+
     		</div>
 
          {% block body %}   
-        	{% if product == false %}                
+        	{% if (product == false) %}                
         	   {% include '_home_body.html' %}
+            {% elseif product == 'contact' %}
+                 {% include '_contact_form.html' %}
             {% else %}            
                 {% include product ~ '.html' %}
             {% endif %}  
