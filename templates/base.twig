@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         {% block head %}
             <meta http-equiv="Content-type" content="text/html; charset=utf-8">
             <title>{% block title %}{% endblock %} - Diamond Tool Manufacturers</title>
@@ -27,20 +28,22 @@
             <!-- Custom World Diamond and legacy styles -->
             <link href="../styles/menu_h2.css" rel="stylesheet" type="text/css">
         {% endblock %}
+
     </head>
     <body>
     	<div class="content clearfix">
     	    <div class="center_box clearfix">
-            {% block marquee %}
-    	        {% include '_homeMarquee.html' %}
-            {% endblock %}                
-            {% block menu %}
-    	        {% include '_menu.html' %}
-            {% endblock %}
 
-    		    <h1>Manufacturers of Diamond Tools for any industry</h1>
-    		    <h2>Standard    |    Special    |    Custom</h2>
+                {% block marquee %}
+        	        {% include '_homeMarquee.html' %}
+                {% endblock %} 
+
+                {% block menu %}
+        	        {% include '_menu.html' %}
+                {% endblock %} 
+                
     		</div>
+
          {% block body %}   
         	{% if product == false %}                
         	   {% include '_home_body.html' %}

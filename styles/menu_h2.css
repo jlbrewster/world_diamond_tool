@@ -16,10 +16,10 @@ h1 {
 	color: #000000;
 	font-weight:500;
 	clear:both;
-	margin:2em 0 .5em 0;
+	margin:2em 0 1em 0;
 }
 p {
-	margin: 1em auto 0 auto;
+	margin: 1em auto 2em auto;
     max-width: 650px;
 }
 h2 {
@@ -27,10 +27,14 @@ h2 {
 	font-size: 1.2em;
 	display: block;
 	color: #000000;
+	margin-top: 0;
+	margin-bottom:.5em;
 }
 h3 {
 	font-size:.82em;
 	display: inline-block;
+	margin-bottom:2em;
+	margin-top: 0;
 }
 h4 {
 	font-size:.7px;
@@ -218,14 +222,14 @@ input.submit{
 }
 #menu {
 	background: #eee;
-	width:469px;
+	width:512px;
 	margin:0 auto;
 }
 #menu ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	width: 9em;
+	width: 128px;
 	float: left;
 }
 #menu a, #menu h2 {
@@ -236,14 +240,14 @@ input.submit{
 	border-color: #ccc #888 #555 #bbb;
 	margin: 0;
 	padding: 2px 3px;
-	background-color: #0000CC;
+	background-color: #043882;
 }
 #menu h2 {
 	color: #fff;
 	text-transform: uppercase;
 }
 #menu a {
-	color: #0033CC;
+	color: #043882;
 	background: #efefef;
 	text-decoration: none;
 }
@@ -259,6 +263,9 @@ input.submit{
 	z-index: 500;
 	*margin-left: 0;
 }
+/*#menu ul ul li a {
+	width: 140px;
+}*/
 #menu ul ul ul {
 	position: absolute;
 	top: 0;
