@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-color:#252a2b;
 }
 body {
     font-family: arial, helvetica, serif;
@@ -31,7 +32,7 @@ h2 {
 	margin-bottom:.5em;
 }
 h3 {
-	font-size:.82em;
+	font-size:1.15em;
 	display: inline-block;
 	margin-bottom:2em;
 	margin-top: 0;
@@ -122,6 +123,14 @@ footer span.company{
 	max-width:700px;
 	margin:0 auto;
 }
+.content_box ul, .content_box_lg ul {
+	list-style: none;
+    text-align: left;
+}
+.content_box_lg{
+	max-width: 1080px;
+	margin: 0 auto;
+}
 .groovers table{
 	margin: 0 auto;
 	max-width: 700px;
@@ -169,18 +178,35 @@ span.align-column{
 	text-align:left;
 }
 .compounds-order p{
-	margin: 0;
+	margin:0;
 	text-align:left;
-	font-size:11px;
-	line-height:13px;
+	font-size:12px;
+	line-height:18px;
+}
+.compounds table p {
+	text-align:left;
+}
+.compounds_table tr td{
+	height:80px;
+}
+.compounds_table tr td:first-child{
+	text-align:left;
+}
+.one-third, .two-thirds{
+	border:1px solid #252a2b;
+	padding:1em;
+	min-height:145px;
 }
 .one-third{
 	width:17%;
 	float:left;
+	margin-left:10%;
 }
 .two-thirds{
-	width:83%;
+	width:63%;
 	float:left;
+	border-left: none;
+	font-weight:500;
 }
 
 .copy_box1 {	
