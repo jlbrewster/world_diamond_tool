@@ -95,6 +95,12 @@ footer span.company{
 	font-size:1em;
 	font-weight:bold;
 }
+.underline{
+	text-decoration: underline;
+}
+.uppercase{
+	text-transform:uppercase;
+}
 .copyright{
 	font-size:10px;
 	padding: 2em 0;
