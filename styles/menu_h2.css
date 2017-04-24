@@ -37,6 +37,7 @@ h3 {
 	margin-bottom:2em;
 	margin-top: 0;
 	font-weight:bold;
+	width:100%;
 }
 h4 {
 	font-size:.7px;
@@ -188,6 +189,10 @@ span.align-column{
 }
 .compounds_table tr td{
 	height:80px;
+}
+.compounds_table th {
+	text-align:center;
+	background-color: #e7e7e7;
 }
 .compounds_table tr td:first-child{
 	text-align:left;
