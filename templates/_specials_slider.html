@@ -1,0 +1,31 @@
+{% extends 'base.twig' %}
+
+{% block body %}
+<div class="slide-wrap">
+  <div class="slide-mask">
+    <ul class="slide-group">
+      <li class="slide">this</li>
+      <li class="slide">is</li>      
+      <li class="slide">a</li>
+      <li class="slide">simple</li>
+      <li class="slide">slider</li>
+    </ul>
+  </div>
+  
+  <div class="slide-nav">
+    <ul>
+      <li class="bullet"></li>
+      <li class="bullet"></li>
+      <li class="bullet"></li>
+      <li class="bullet"></li> 
+      <li class="bullet"></li>       
+    </ul>
+  </div>
+</div>
+{% endblock %}
+
+
+{% block scripts %}
+{{ parent() }}
+<script src="/scripts/slider.js" type="text/javascript"></script>
+{% endblock %}

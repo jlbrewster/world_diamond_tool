@@ -4,7 +4,7 @@
 }
 body {
     font-family: arial, helvetica, serif;
-    background: #999999 url(/images/ddbg3.gif) no-repeat;
+    background: #999999;
     padding: 2em;
     margin: 0 auto;
     text-align: center;
@@ -116,6 +116,14 @@ footer span.company{
 }
 #tpg_box3 {
 	float: left;
+}
+.special_box{
+	margin-right: auto;
+	margin-left: auto;
+}
+h2.specials{
+	margin: 2em 0;
+	font-style:italic;
 }
 .content {
 	width: 100%;
@@ -363,3 +371,56 @@ div#menu ul ul ul li:hover ul
 }
 /* ------end menu styles------ */
 
+/* ----Specials slider styles ------ */
+
+
+/* slider
+----------------------*/
+.slide-wrap {
+  margin: 2em auto;
+  width: 50%;
+}
+.slide-mask {
+  position: relative;
+  overflow: hidden;
+  height: 160px;
+}
+.slide-group {
+  position: absolute; 
+  padding:0;
+  top: 0px; 
+  left: 0;
+  width: 100%;
+  list-style-type: none;
+}
+.slide {
+  height: 160px;
+	/*font: 100 90px/135px "lato";*/
+	font-size: 2em;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;  
+}
+
+/* nav
+----------------------*/
+.slide-nav {
+  text-align: center;
+}
+.slide-nav ul {
+	margin: 0;
+	padding: 0;	
+	list-style-type:none;
+}
+.slide-nav li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: rgb(175, 56, 56);
+  cursor: pointer;
+  margin-left: .5em;
+  list-style-type: none;
+}
+.slide-nav li.current {
+	background: rgb(144, 39, 39);
+}

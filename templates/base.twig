@@ -4,8 +4,8 @@
 
         {% block head %}
             <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-            <title>{{  siteName }} - Diamond Tool Manufacturers</title>
-
+            <title>{{  siteName }} - Diamond Tool Manufacturers</title>           
+            
              <!-- Bootstrap core CSS -->
             <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
             <!-- Bootstrap theme -->
@@ -16,17 +16,9 @@
             <!-- Custom styles for this template -->
             <link href="../theme.css" rel="stylesheet">
 
-            <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-            <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-            <script src="../node_modules/bootstrap/assets/js/ie-emulation-modes-warning.js"></script>
-
-            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-            <!--[if lt IE 9]>
-              <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-            <![endif]-->
             <!-- Custom World Diamond and legacy styles -->
             <link href="../styles/menu_h2.css" rel="stylesheet" type="text/css">
+
         {% endblock %}
 
     </head>
@@ -49,6 +41,8 @@
         	   {% include '_home_body.html' %}
             {% elseif product == 'contact' %}
                  {% include '_contact_form.html' %}
+            {% elseif product == 'specials_slider' %}
+                {% include '_specials_slider.html' %}
             {% else %}            
                 {% include product ~ '.html' %}
             {% endif %}  
@@ -56,5 +50,11 @@
 
         </div>
         {% include '_footer.html' %}
+        {% block scripts %}
+             <!-- JQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <!-- Bootstrap -->
+            <script src="../node_modules/bootstrap/assets/js/ie-emulation-modes-warning.js"></script>          
+        {% endblock %}
     </body>
 </html>

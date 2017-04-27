@@ -1,0 +1,48 @@
+{% extends "base.twig" %}
+
+    {% block marquee %}     
+            <h1>Diamond Tool Specials</h1>
+    {% endblock %} 
+
+    {% block menu %}  
+        {{ parent() }}              
+    {% endblock %}
+
+    {% block body %}
+        <div class="content_box">
+            <h2 class="specials">Check back often for specials on a wide variety of diamond tools!</h2>
+            <div class="slide-wrap">
+              <div class="slide-mask">
+                <ul class="slide-group">
+                   <li class="slide">
+                        <div class="special_box">
+                            <img src="images/cnmg_special.jpg" alt="specials" />
+                            <p style="font-size:12px;display:block;width:100%">CNMG-431/432 Starting at Just $24.00!
+                               <br><span style="text-transform: capitalize;"><em>Order this Diamond Tool Special today!</em></span></p>
+                        </div>
+                    </li>      
+                    <li class="slide">Special 2
+                        <p style="font-size:12px;">(Special 2 description)</p>
+                    </li>
+                    <li class="slide">Special 3
+                        <p style="font-size:12px;">(Special 3 description)</p>
+                    </li>
+                </ul>
+              </div>
+          </div>
+          
+         {#  <div class="slide-nav">
+            <ul>
+              <li class="bullet"></li>
+              <li class="bullet"></li>
+              <li class="bullet"></li>
+              <li class="bullet"></li> 
+              <li class="bullet"></li>       
+            </ul>
+          </div> #}
+        </div>
+    {% endblock %}
+    {% block scripts %}
+        {{ parent() }}
+        <script src="/scripts/slider.js" type="text/javascript"></script>
+    {% endblock %}
